@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    id          = "vuefirebase.tutorial"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+    <name>Vue-Firebase</name>
+
+    <description>
+      Vue+Firebase+Phonegap example
+    </description>
+
+    <author>
+      Vito
+    </author>
+
+    <plugin name="cordova-plugin-whitelist" /><!--allow navigation and use inline links-->
+    <!-- A wildcard can be used to whitelist the entire network,
+         over HTTP and HTTPS.
+         *NOT RECOMMENDED* -->
+    <allow-navigation href="*" />    
+    
+</widget>
